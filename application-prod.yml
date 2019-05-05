@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.1.46:1433;DatabaseName=CYFTDB
+    username: sa
+    password: cwahw2015
+  mvc:
+    async:
+      request-timeout: 30000
+
+wubo:
+  username: cwwl
+  password: cwwl
+  url: https://api.wbtech.com
+  platName: sc.cwwl.com
+  customerId: c13910
+
+server:
+  port: 8082
+  connection-timeout: 30000
+#logging:
+#  level:
+#    com.scwu.fcxt: info
+#  #    org.springframework.web: info
+#  path: /var/log/cp-api
+#  config: classpath:logback-spring.xml
